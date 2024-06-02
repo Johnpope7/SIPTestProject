@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6021507766605039767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4581314291479533085}
+  - component: {fileID: -8241575608897186869}
+  m_Layer: 0
+  m_Name: RandomActorGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4581314291479533085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021507766605039767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8241575608897186869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021507766605039767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb95946c06b8734898db37fc0418357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heads:
+  - {fileID: 845779091429120280, guid: 199a3cb3e6ea30343848618f6a87005f, type: 3}
+  - {fileID: 845779091429120280, guid: 33b05283680e6e347966a917fb6b4496, type: 3}
+  - {fileID: 845779091429120280, guid: 80e44f94ff21d7e4e9be4c7d07f0a5c5, type: 3}
+  - {fileID: 845779091429120280, guid: c97e5c3667d83c94f908a8f907c460fd, type: 3}
+  Legs:
+  - {fileID: 769889273101697362, guid: 05a22c0417bca2a4aa6ecf920294ffdb, type: 3}
+  - {fileID: 769889273101697362, guid: 3f0bd3501c226fb4fbe31cb40584b59f, type: 3}
+  - {fileID: 769889273101697362, guid: cb3bfdfd441ec7c47b1b430d3787085f, type: 3}
+  - {fileID: 769889273101697362, guid: 7d6c39a7e6f59224296092fd762c5cd6, type: 3}
+  Bodies:
+  - {fileID: 3229028987870596431, guid: 431fa55d4bbf4424c95aee9dfe1eb3ac, type: 3}
+  - {fileID: 3229028987870596431, guid: 0018f1fb201c48744b1f8ae39bce9a48, type: 3}
+  - {fileID: 3229028987870596431, guid: d00743ab72e9e574ebaf1ef4c96ff659, type: 3}
+  - {fileID: 3229028987870596431, guid: cd6a7cadf9a48c342b6b93ed55e822ff, type: 3}
+  L_Arms:
+  - {fileID: 8878727435187267588, guid: ca11ede9274700a4c826cef76c84cf6a, type: 3}
+  - {fileID: 8878727435187267588, guid: 20bf9b95cba9fde42b32aee0c0295ae9, type: 3}
+  - {fileID: 8878727435187267588, guid: 9b55c44d004b9454c9183a83b7f8ac3c, type: 3}
+  - {fileID: 8878727435187267588, guid: 6964bc29e01023e42ad6779906d258c4, type: 3}
+  R_Arms:
+  - {fileID: 8878727435187267588, guid: 6e5833bcd12d09242b9d7fd99373a996, type: 3}
+  - {fileID: 8878727435187267588, guid: 31fcc5cf818c51a40bb3668b71a44c27, type: 3}
+  - {fileID: 8878727435187267588, guid: 47c1338951f59ca43b5980c1ff4f743a, type: 3}
+  - {fileID: 8878727435187267588, guid: 7781ce40be041e540b5eed3815d25b1a, type: 3}
