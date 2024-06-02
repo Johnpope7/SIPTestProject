@@ -37,15 +37,12 @@ public class RandomActorGenerator : MonoBehaviour
     {
         //This first line spawns the root of the randomly generated actor
        rootTransform = Instantiate(rootTransform, new Vector3(0f, 0, 0), Quaternion.identity);
-        //this renames the object to something more fitting
-       rootTransform.name = "actorRoot";
         //generates a random number from the number of Bodies contained in the Bodies List
         int randomNum = Random.Range(0, Bodies.Count);
         //generates a random body to place on our actor
         GameObject randomBody = Instantiate(Bodies[randomNum], rootTransform);
         //This generates a random number from the heads list
         randomNum = Random.Range(0, Heads.Count);
-        GameObject randomHead = Instantiate(Heads[randomNum], randomBody.GetComponentsInChildren<>
     }
 
 
