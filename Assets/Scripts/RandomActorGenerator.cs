@@ -135,4 +135,10 @@ public class RandomActorGenerator : MonoBehaviour
 
         return;
     }
+
+    private void Start()
+    {
+       List<GameObject> tempList = GenerateParts();
+        ActorAssembler(tempList);
+    }
 }
