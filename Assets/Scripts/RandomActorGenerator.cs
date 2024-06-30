@@ -98,38 +98,38 @@ public class RandomActorGenerator : MonoBehaviour
         //This gets the desired start piece from the list prepared in Generated Parts
         tempObject0 = randomParts[0];
         //the AttachPoint created on the prefab is referenced here for attachment
-        aPTransform0 = tempObject0.transform.GetChild(0);
+        aPTransform0 = tempObject0.transform;
         //Next we reference the next piece which the rest will be built off of
         tempObject1 = randomParts[1];
         //and grab the desired Attach Point
-        aPTransform1 = tempObject1.transform.GetChild(0);
+        aPTransform1 = tempObject1.transform;
         //sets one attach point on top of the other
         aPTransform1.position = aPTransform0.position;
 
         //This continues on connecting the next two pieces
         tempObject0 = randomParts[2];
         //sets the variable equal to the next attach point needed
-        aPTransform0 = tempObject0.transform.GetChild(0);
+        aPTransform0 = tempObject0.transform;
         //selects a new attach point on the body piece
-        aPTransform1 = tempObject1.transform.GetChild(1);
+        aPTransform1 = tempObject1.transform;
         //sets one attach point on top of the other
         aPTransform1.position = aPTransform0.position;
 
         //This continues on connecting the next two pieces
         tempObject0 = randomParts[3];
         //sets the variable equal to the next attach point needed
-        aPTransform0 = tempObject0.transform.GetChild(0);
+        aPTransform0 = tempObject0.transform;
         //selects a new attach point on the body piece
-        aPTransform1 = tempObject1.transform.GetChild(2);
+        aPTransform1 = tempObject1.transform;
         //sets one attach point on top of the other
         aPTransform1.position = aPTransform0.position;
 
         //This continues on connecting the next two pieces
         tempObject0 = randomParts[4];
         //sets the variable equal to the next attach point needed
-        aPTransform0 = tempObject0.transform.GetChild(0);
+        aPTransform0 = tempObject0.transform;
         //selects a new attach point on the body piece
-        aPTransform1 = tempObject1.transform.GetChild(3);
+        aPTransform1 = tempObject1.transform;
         //sets one attach point on top of the other
         aPTransform1.position = aPTransform0.position;
 
