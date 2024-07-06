@@ -40,7 +40,7 @@ public class RandomActorGenerator : MonoBehaviour
     /// </summary>
     /// <returns>Returns a list of randomized parts in the following order:
     /// Legs, Body, Head, L_Arm, R_Arm</returns>
-    private GameObject GenerateActor() 
+    public GameObject GenerateActor() 
     {
         //This first line spawns the root of the randomly generated actor
         randomActor = Instantiate(randomActor, new Vector3(0f, 0, 0), Quaternion.identity);
@@ -65,10 +65,5 @@ public class RandomActorGenerator : MonoBehaviour
         //picks a leg piece using the earlier random number
         GameObject randomR_Arms = Instantiate(R_Arms[randomNum], randomBody.transform.GetChild(3));
         return randomActor;
-    }
-
-    private void Start()
-    {
-      GenerateActor();
     }
 }
